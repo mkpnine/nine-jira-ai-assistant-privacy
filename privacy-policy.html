@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privatlivspolitik — Jira AI Assistant</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 20px 60px;
+      color: #172b4d;
+      line-height: 1.6;
+    }
+    h1 { font-size: 1.5rem; margin-bottom: 4px; }
+    h2 { font-size: 1.05rem; margin-top: 32px; margin-bottom: 8px; color: #0052cc; }
+    .meta { font-size: 0.85rem; color: #6b778c; margin-bottom: 32px; }
+    hr { border: none; border-top: 1px solid #dfe1e6; margin: 32px 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      margin: 16px 0;
+    }
+    th {
+      text-align: left;
+      padding: 8px 12px;
+      background: #f4f5f7;
+      border: 1px solid #dfe1e6;
+      font-weight: 600;
+    }
+    td {
+      padding: 8px 12px;
+      border: 1px solid #dfe1e6;
+      vertical-align: top;
+    }
+    a { color: #0052cc; }
+    .notice {
+      background: #fffae6;
+      border-left: 4px solid #ff991f;
+      padding: 12px 16px;
+      border-radius: 2px;
+      font-size: 0.92rem;
+      margin: 16px 0;
+    }
+    .highlight {
+      background: #e3fcef;
+      border-left: 4px solid #00875a;
+      padding: 12px 16px;
+      border-radius: 2px;
+      font-size: 0.92rem;
+      margin: 16px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Privatlivspolitik</h1>
+  <p class="meta">
+    Jira AI Assistant &nbsp;&middot;&nbsp; Senest opdateret: 8. juni 2026<br>
+    Udgivet af: Nine A/S &nbsp;&middot;&nbsp; <a href="mailto:mkp@nine.dk">mkp@nine.dk</a>
+  </p>
+
+  <h2>1. Hvad denne udvidelse gør</h2>
+  <p>
+    Jira AI Assistant er en browserudvidelse til Chrome der injicerer et AI-panel
+    i Jira Server/Data Center-sider. Udvidelsen læser indholdet af et Jira-issue og sender det
+    — sammen med en brugerkonfigureret præprompt — til en AI-udbyder valgt af brugeren.
+  </p>
+
+  <h2>2. Dataindsamling fra udvidelsen</h2>
+  <div class="highlight">
+    <strong>Jira AI Assistant indsamler ingen data.</strong><br>
+    Udvidelsen sender ingen oplysninger til Nine A/S eller nogen server kontrolleret af Nine.
+  </div>
+  <p>
+    Al konfiguration (API-n&oslash;gler, indstillinger) og alle gemte AI-svar opbevares udelukkende
+    lokalt i din browser via <code>browser.storage.local</code>. Data forlader aldrig din enhed
+    &mdash; med undtagelse af de kald der sendes direkte til den AI-udbyder du selv v&aelig;lger og
+    konfigurerer (se afsnit 3).
+  </p>
+  <p>
+    Udvidelsen anvender ingen analyseværktøjer, telemetri, sporings-cookies eller andre mekanismer
+    til at indsamle brugerdata.
+  </p>
+
+  <h2>3. Tredjeparts AI-udbydere</h2>
+  <p>
+    N&aring;r du stiller et sp&oslash;rgsm&aring;l, videresender udvidelsen indholdet af Jira-issuet
+    samt din pr&aelig;prompt direkte til den AI-udbyder du har konfigureret. Udvidelsen underst&oslash;tter
+    f&oslash;lgende udbydere:
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>Udbyder</th>
+        <th>Privatlivspolitik</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Google Gemini</td>
+        <td><a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></td>
+      </tr>
+      <tr>
+        <td>Anthropic Claude</td>
+        <td><a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a></td>
+      </tr>
+      <tr>
+        <td>GitHub Copilot</td>
+        <td><a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank">GitHub Privacy Statement</a></td>
+      </tr>
+      <tr>
+        <td>EM-GPT</td>
+        <td>Administreres af din organisation</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="notice">
+    <strong>Vigtigt:</strong> Tredjeparts AI-udbydere kan behandle og opbevare de data du sender
+    til dem i overensstemmelse med deres egne vilk&aring;r og privatlivspolitik. Nine A/S har ingen
+    kontrol over eller ansvar for, hvordan disse udbydere behandler data.<br><br>
+    Det er dit ansvar at sikre, at de oplysninger du sender til en AI-udbyder er i
+    overensstemmelse med din organisations retningslinjer og g&aelig;ldende lovgivning &mdash;
+    herunder at klassificerede eller fortrolige Jira-issue-oplysninger ikke sendes til en
+    uegnet AI-tjeneste.
+  </div>
+
+  <h2>4. Dine rettigheder</h2>
+  <p>
+    Da udvidelsen ikke indsamler eller overfører personoplysninger til Nine A/S, opbevarer vi ingen
+    data om dig. Alle lokalt gemte data (svar og indstillinger) kan til enhver tid slettes ved at
+    afinstallere udvidelsen eller rydde udvidelsens data via browserindstillingerne.
+  </p>
+
+  <hr>
+
+  <h2>5. Ansvarsfraskrivelse &mdash; Nine A/S</h2>
+  <p>
+    Udvidelsen stilles til r&aring;dighed &rdquo;som den er&rdquo; (<em>as is</em>) uden garanti af nogen art,
+    hverken udtrykkelig eller underforst&aring;et. Nine A/S p&aring;tager sig intet ansvar for:
+  </p>
+  <ul>
+    <li>Data der behandles af tredjeparts AI-udbydere valgt af brugeren</li>
+    <li>N&oslash;jagtigheden, fuldst&aelig;ndigheden eller hensigtsmæssigheden af AI-genererede svar</li>
+    <li>Tab, skader eller konsekvenser der opst&aring;r som f&oslash;lge af brug af udvidelsen eller de
+        AI-svar den returnerer</li>
+    <li>Driftsforstyrrelser, nedetid eller ændringer hos tredjeparts AI-udbydere</li>
+    <li>S&aring;rbarheder eller sikkerhedsproblemer i tredjeparts AI-udbyderes tjenester</li>
+  </ul>
+  <p>Brug af udvidelsen sker p&aring; eget ansvar.</p>
+
+  <hr>
+
+  <h2>6. Kontakt</h2>
+  <p>
+    Sp&oslash;rgsm&aring;l vedr&oslash;rende denne privatlivspolitik kan rettes til:<br><br>
+    <strong>Nine A/S</strong><br>
+    E-mail: <a href="mailto:mkp@nine.dk">mkp@nine.dk</a>
+  </p>
+
+</body>
+</html>
